@@ -1,9 +1,6 @@
-import random
-
 class Type:
-	previousTypes = []
-	name = 'Untitled'
-	extends = ''
+	name = None
+	extends = None
 	
 	def __init__(self, name, extends):
 		self.name = name
@@ -14,3 +11,8 @@ class Type:
 		
 	def __str__(self):
 		return "type " + self.name + ";"
+		
+	def __eq__(self, other):
+		if isinstance(other, Type):
+			return self.name == other.name and self.extends == other.extends
+		return False

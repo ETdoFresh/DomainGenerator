@@ -16,4 +16,4 @@ class Property:
 				output += parameter.name
 			else: 
 				output += ',' + parameter.name
-		return output + ")"
+		return output + ");"
