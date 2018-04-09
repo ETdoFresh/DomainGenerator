@@ -1,0 +1,7 @@
+alive
+audible
+location
+holding
+target
+hasThreatened
+loves

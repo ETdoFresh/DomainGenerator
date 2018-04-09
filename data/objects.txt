@@ -1,0 +1,17 @@
+man
+woman
+gun
+knife
+weapon
+cover
+street
+sidewalk
+house
+room
+officer
+bandit
+player
+sword
+coin
+gem
+medicine

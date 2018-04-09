@@ -1,0 +1,5 @@
+Tagent
+Tcharacter
+Tweapon
+Tplace
+Tlocation
