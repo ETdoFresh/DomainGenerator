@@ -2,15 +2,13 @@ class Type:
 	name = None
 	extends = None
 	
-	def __init__(self, name, extends):
+	def __init__(self, name, extends = None):
 		self.name = name
 		self.extends = extends
-
-	def __init__(self, name):
-		self.name = name
 		
 	def __str__(self):
-		return "type " + self.name + ";"
+		if self.extends == None: return "type " + self.name + ";"
+		else: return "type " + self.name + " extends " + self.extends + ";"
 		
 	def __eq__(self, other):
 		if isinstance(other, Type):

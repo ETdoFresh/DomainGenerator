@@ -1,5 +1,5 @@
-Tagent
-Tcharacter
-Tweapon
-Tplace
-Tlocation
+Agent
+Character
+Weapon
+Place
+Location
